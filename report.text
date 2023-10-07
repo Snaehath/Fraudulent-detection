@@ -1,21 +1,3 @@
-Model Evaluation: Precision in Fraud Detection
-
-In our analysis of a fraud detection model, we have observed that both the Random Forest and Decision Tree algorithms yield the same accuracy. However, it is crucial to emphasize that precision holds paramount importance in this context. Our primary objective is to accurately identify fraudulent transactions while minimizing false positives. Failing to detect fraudulent activity can have severe consequences, and it is our priority to ensure that innocent customers are not erroneously flagged.
-
-This preference for precision is one of the key reasons for choosing Random Forest and Decision Tree algorithms over others. Additionally, our dataset is highly imbalanced, with legitimate transactions significantly outnumbering fraudulent ones (a ratio of 99.87:0.13). Random Forest's ability to create multiple decision trees simplifies the modeling process while maintaining the precision required for fraud detection.
-
-Other algorithms like XGBoost, Bagging, Artificial Neural Networks (ANN), and Logistic Regression may yield high accuracy, but they may not offer the precision and recall values needed for effective fraud detection.
-
-Key Predictors of Fraudulent Activity
-
-In our analysis, we have identified several key factors that predict fraudulent customer behavior:
-
-1. Source of Request Security: Evaluating whether the source of the transaction request is secure or not is essential. Secure sources are less likely to be associated with fraudulent activity.
-
-2. Legitimacy of the Requesting Organization: Verifying the legitimacy of the organization requesting funds is crucial. Fraudulent entities often use deceptive names to mislead customers.
-
-3. Transaction History of Vendors: Examining the transaction history of vendors can reveal patterns associated with fraudulent behavior.
-
 Infrastructure Update Recommendations
 
 To enhance the security of your company's infrastructure, we recommend the following preventive measures:
